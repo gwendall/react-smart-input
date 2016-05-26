@@ -1,6 +1,6 @@
 {
   "name": "react-smart-input",
-  "version": "0.0.2_1",
+  "version": "0.0.21",
   "description": "A smart Input component for React",
   "main": "dist/server.js",
   "browser": "dist/client.js",
