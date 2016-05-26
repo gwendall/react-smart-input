@@ -1,4 +1,4 @@
-React Smart Image
+React Smart Input
 ==========================
 
 A smart input component for React.
