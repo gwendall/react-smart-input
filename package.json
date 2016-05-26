@@ -1,30 +1,28 @@
 {
-  "name": "react-smart-image",
-  "version": "0.0.2",
-  "description": "A smart img component for React",
-  "main": "lib/server.js",
-  "browser": "lib/browser.js",
+  "name": "react-smart-input",
+  "version": "0.0.2_1",
+  "description": "A smart Input component for React",
+  "main": "dist/server.js",
+  "browser": "dist/client.js",
   "author": "Gwendall Esnault <gwendall.esnault@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/gwendall/react-smart-image",
+  "homepage": "https://github.com/gwendall/react-smart-input",
   "repository": {
     "type": "git",
     "url": "https://github.com/gwendall/react-smart-image.git"
   },
   "bugs": {
-    "url": "https://github.com/gwendall/react-smart-image/issues"
+    "url": "https://github.com/gwendall/react-smart-input/issues"
   },
   "tags": [
-    "img",
-    "image",
-    "images",
+    "input",
+    "inputs",
     "react",
     "react-component"
   ],
   "keywords": [
-    "img",
-    "image",
-    "images",
+    "input",
+    "inputs",
     "react",
     "react-component"
   ],
@@ -33,7 +31,7 @@
     "underscore": "^1.8.3"
   },
   "scripts": {
-    "build": "jsx lib/client.jsx > lib/client.js && jsx lib/server.jsx > lib/server.js",
+    "build": "jsx src/client.jsx > dist/client.js && jsx src/server.jsx > dist/server.js",
     "prepublish": "npm run build"
   }
 }
